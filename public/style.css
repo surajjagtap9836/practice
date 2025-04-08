@@ -1,0 +1,14 @@
+.title{
+    text-align: center;
+}
+.user{
+    font-size: 25px;
+    color: rgb(141, 49, 97);
+}
+.content{
+    font-size: 20px;
+}
+.post{
+    background-color: aqua;
+    border-radius: 5px;
+}
