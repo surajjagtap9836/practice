@@ -13,9 +13,13 @@
        <i><p class="user">username:<%=post.username %></p></i> 
         <p class="content">content:<%=post.content %></p>
         <br/>
-        <button><a href="http://localhost:9836/posts/new">Create new post</a></button>
         <button><a href="http://localhost:9836/posts/<%=post.id%>">View in Detail</a> </button>
+        <button><a href="http://localhost:9836/posts/<%=post.id%>/edit">edit </a> </button>
+
     </div>
-<%}%>
+
+<%}%><br/>
+<button><a href="http://localhost:9836/posts/new">Create new post</a></button>
+
 </body>
 </html>
